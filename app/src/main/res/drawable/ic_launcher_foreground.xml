@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer solid calculator representation strictly positioned in standard safe boundaries -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,22 h40 c4,0 8,4 8,8 v48 c0,4 -4,8 -8,8 H34c-4,0 -8,-4 -8,-8 V30c0,-4 4,-8 8,-8 z" />
+    
+    <!-- Calculator primary display screen -->
+    <path
+        android:fillColor="#002171"
+        android:pathData="M30,26 h48 v15 H30 z" />
+    
+    <!-- White indicator on screen for glowing math display -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M34,30 h12 v2 H34 z M34,35 h24 v1 H34 z" />
+        
+    <!-- Button keys grid -->
+    <!-- Row 1: Operations -->
+    <path android:fillColor="#1565C0" android:pathData="M32,46 h10 v6 h-10 z" />
+    <path android:fillColor="#1565C0" android:pathData="M49,46 h10 v6 h-10 z" />
+    <path android:fillColor="#1565C0" android:pathData="M66,46 h10 v6 h-10 z" />
+    
+    <!-- Row 2: Digits -->
+    <path android:fillColor="#1E88E5" android:pathData="M32,56 h10 v6 h-10 z" />
+    <path android:fillColor="#1E88E5" android:pathData="M49,56 h10 v6 h-10 z" />
+    <path android:fillColor="#1E88E5" android:pathData="M66,56 h10 v6 h-10 z" />
+    
+    <!-- Row 3: Digits -->
+    <path android:fillColor="#1E88E5" android:pathData="M32,66 h10 v6 h-10 z" />
+    <path android:fillColor="#1E88E5" android:pathData="M49,66 h10 v6 h-10 z" />
+    <path android:fillColor="#1E88E5" android:pathData="M66,66 h10 v6 h-10 z" />
+    
+    <!-- Row 4: Submit bar and zero -->
+    <path android:fillColor="#1E88E5" android:pathData="M32,76 h10 v6 h-10 z" />
+    <path android:fillColor="#FFB300" android:pathData="M49,76 h27 v6 h-27 z" />
+</vector>

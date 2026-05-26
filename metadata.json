@@ -1,0 +1,8 @@
+{
+  "name": "Remix: SmartCalc - Student Calculator",
+  "description": "SmartCalc is a high-performance native student calculator. It includes basic \u0026 scientific computing engines, a real-time smart formula solver, live chemical molar mass breakdown, integrated physical unit converters, step-by-step math solver explanations, and dynamic dark toggle mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
